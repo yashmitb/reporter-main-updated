@@ -1,0 +1,52 @@
+{
+  "name": "Reporter",
+  "slug": "reporter",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "updates": {
+    "fallbackToCacheTimeout": 0,
+    "url": "https://u.expo.dev/332ca835-78eb-4470-b3b6-f4f6232d1c17"
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "host.exp.exponent",
+    "buildNumber": "1.0.0"
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/icon.png",
+      "backgroundColor": "#FFFFFF"
+    },
+    "package": "com.the_yoshiii.reporter",
+    "versionCode": 1
+  },
+  "web": {
+    "favicon": "./assets/icon.png"
+  },
+  "description": "A simple and easy way for people to report crime.",
+  "extra": {
+    "eas": {
+      "projectId": "332ca835-78eb-4470-b3b6-f4f6232d1c17"
+    }
+  },
+  "runtimeVersion": {
+    "policy": "sdkVersion"
+  },
+  "sdkVersion": "48.0.0",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "currentFullName": "@the_yoshiii/reporter",
+  "originalFullName": "@the_yoshiii/reporter"
+}
